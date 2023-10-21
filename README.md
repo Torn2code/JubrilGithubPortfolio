@@ -8,8 +8,8 @@
 - [Questions](#questions)
 - [Modality of Submission](#modality-of-submission)
 - [Libraries Used](#libraries-used)
-- [How to Run](#how-to-run)
-- [Submission Link](#submission-link)
+- [Page Interface Look](#page-interface-look)
+- [GiHubPortfolio Link](#githubportfolio-link)
 
 ## Description
 This repository contains my solution to the Frontend Second Semester Examination Project. The project is implemented using React and includes a GitHub portfolio page and other features.
@@ -66,4 +66,6 @@ Here are some of the libraries and dependencies used in this project:
 <img width="1275" alt="Screenshot 2023-10-21 at 6 34 36 PM" src="https://github.com/Torn2code/JubrilGithubPortfolio/assets/124474001/5ad1fcc8-b2b5-4d3a-b415-4c290feb132d">
 
 
-# JubrilGithubPortfolio
+# JubrilGithubPortfolioLiveLink
+
+[Jubril GitHub Portfolio](https://jubriladebiyigithubportfolio.netlify.app/)
