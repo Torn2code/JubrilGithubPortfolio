@@ -55,7 +55,15 @@ Here are some of the libraries and dependencies used in this project:
 11. **fetch API**: A browser API for making network requests. [Link to Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_APIhttps://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) 
 
 
-## How to Run
-Provide instructions on how to run your application locally. For example:
+## Page Interface Look
+
+<img width="1277" alt="Screenshot 2023-10-21 at 6 33 26 PM" src="https://github.com/Torn2code/JubrilGithubPortfolio/assets/124474001/2986f01f-f85f-4aef-84c2-6b224e0e6c32">
+
+<img width="1276" alt="Screenshot 2023-10-21 at 6 33 50 PM" src="https://github.com/Torn2code/JubrilGithubPortfolio/assets/124474001/0ac6e482-c34f-4479-87bb-63be92f0b838">
+
+<img width="1280" alt="Screenshot 2023-10-21 at 6 34 15 PM" src="https://github.com/Torn2code/JubrilGithubPortfolio/assets/124474001/38163983-4e09-4b13-b55a-b5a360867f71">
+
+<img width="1275" alt="Screenshot 2023-10-21 at 6 34 36 PM" src="https://github.com/Torn2code/JubrilGithubPortfolio/assets/124474001/5ad1fcc8-b2b5-4d3a-b415-4c290feb132d">
+
 
 # JubrilGithubPortfolio
