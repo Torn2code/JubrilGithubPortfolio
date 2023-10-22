@@ -4,25 +4,25 @@
       "id": 1,
       "src": "./img/icons8-frontend-64.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sir, amet consectetur adipisicing elit. Suspenmdiss varius eim in eros elementum tristique" 
+      "description": "Crafting visually stunning and responsive user interfaces to deliver exceptional web experiences." 
     },
     {
       "id": 2,
       "src": "./img/icons8-javascript-64.png",
       "title": "JavaScript",
-      "description": "Lorem ipsum dolor sir, amet consectetur adipisicing elit. Suspenmdiss varius eim in eros elementum tristique" 
+      "description": "Leveraging the power of JavaScript to create dynamic and interactive elements that breathe life into websites." 
     },
     {
       "id": 3,
       "src": "./img/icons8-css-48.png",
       "title": "CSS",
-      "description": "Lorem ipsum dolor sir, amet consectetur adipisicing elit. Suspenmdiss varius eim in eros elementum tristique" 
+      "description": "Designing with precision, using CSS to style web elements, ensuring they look and feel just right." 
     },
     {
       "id": 4,
       "src": "./img/icons8-react-js-30.png",
       "title": "React",
-      "description": "Lorem ipsum dolor sir, amet consectetur adipisicing elit. Suspenmdiss varius eim in eros elementum tristique" 
+      "description": "Building robust, component-based applications with React, for seamless and maintainable web development." 
     }
   ]
 }
