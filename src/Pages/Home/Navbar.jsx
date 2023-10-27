@@ -38,7 +38,7 @@ function Navbar() {
       <div>
         <img src="logoipsum-243.svg" alt="IpsumLogo" />
       </div>
-      <a className={`nav_hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+      <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>

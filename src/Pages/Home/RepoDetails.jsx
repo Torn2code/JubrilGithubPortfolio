@@ -47,8 +47,7 @@ function RepoDetails() {
       </p>
       <p>
        Main Language: {repoDetails.language === null ? "none" : repoDetails.language}
-      </p>
-    
+      </p>   
       <p>
         <a href={`https://github.com/${repoDetails.full_name}`}>View on Github</a>
       </p>
