@@ -48,9 +48,7 @@ function RepoDetails() {
       <p>
        Main Language: {repoDetails.language === null ? "none" : repoDetails.language}
       </p>
-      <p>
-        <a href={`https://Torn2code.github.io/${repoName}`}>Live site: torn2code.github.io/{repoName}</a>
-      </p>
+    
       <p>
         <a href={`https://github.com/${repoDetails.full_name}`}>View on Github</a>
       </p>
