@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/my-portfolio" element={<MyPortfolio />} />
             <Route path="/repodetails/:repoName" element={<RepoDetails />} />
-            <Route path="/Error404page" element={Error404Page} />
+            <Route path="/Error404Page" element={Error404Page} />
           </Routes>
         </div>
       </Router>
