@@ -90,7 +90,7 @@ function Navbar() {
         </ul>
       </div>
       <Link
-        to="/Error404Page"
+        to="error404page"
         className="btn btn-outline-primary"
         onClick={closeMenu}
         spy={true}
