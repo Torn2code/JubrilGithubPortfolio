@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
-
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
 
@@ -100,6 +99,12 @@ function Navbar() {
       >
         Error 404 Page
       </Link>
+      
+      {navActive && (
+        <div className="nav__cancel" onClick={closeMenu}>
+          <span>X</span>
+        </div>
+      )}
     </nav>
   );
 }
