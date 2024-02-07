@@ -164,6 +164,7 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  font-family: "Roboto", sans-serif;
 }
 /* Section Title End */
 
@@ -219,6 +220,7 @@ text-decoration:none;
   gap: 32px;
   background-color: var(--bg-shade);
 }
+
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
@@ -284,8 +286,8 @@ text-decoration:none;
 
 .skills--section--heading {
   color: var(--heading-color);
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 550;
   line-height: 77px;
 }
 
@@ -295,9 +297,10 @@ text-decoration:none;
   align-items: center;
   gap: 42.6px;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 
-.skills--section-card {
+.skills--section--card {
   display: flex;
   padding: 32px;
   flex-direction: column;
@@ -307,6 +310,8 @@ text-decoration:none;
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 250px;
+  border: 1px solid #1B9AAA;
+  border-color: #5e3bee;
 }
 
 .skills--section--card:hover{
@@ -315,6 +320,19 @@ text-decoration:none;
 .skills--section--card:hover .skills--section--description {
   color: var(--darkblue);
 }
+
+.portfolio--container {
+margin-left: 75px;
+margin-bottom: 20px;
+}
+
+.section--heading {
+  font-family: "Roboto", sans-serif;
+    color: var(--heading-color);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 77px;
+  }
 
 .skills--section-img {
   display: flex;
@@ -350,7 +368,7 @@ cursor: pointer;
   line-height: 32px;
 }
 
-/* Skill Stle End */
+/* Skill Style End */
 
 
 /* About Style */
@@ -372,17 +390,40 @@ cursor: pointer;
 
 /* My Portfolio */
 
-.repo-card,
+.repo-card {
+  padding: 32px;
+  border-radius: 10.6px;
+  background: var(--bg-shade);
+  min-height: 250px;
+  border: 1px solid #1B9AAA;
+  transition: transform 0.3s, box-shadow 0.3s; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.repo-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
 .repodetail-card {
-    border: 1px solid #1B9AAA;
-    padding: 13px;
-    border-radius: 5px;
+  border: 1px solid #1B9AAA;
+  padding: 13px;
+  border-radius: 5px;
 }
 
 .repo-name {
-  color: #1B9AAA;
+  color: var(--primary);
   font-size: 2rem;
   word-break: break-word;
+  font-family: "Roboto", sans-serif;
 }
 
 .view-more {
@@ -401,26 +442,26 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Make the container take the full viewport height */
+  height: 100vh; 
 }
 
 .repo-mini-details {
-  border: 2px solid #ccc; /* Add a border to create a card-like appearance */
+  border: 2px solid #ccc; 
   padding: 40px;
-  max-width: 400px; /* Set a maximum width for the card */
+  max-width: 400px; 
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   border-radius: 10px;
 }
 
 .icons {
-  width: 24px; /* Adjust the size of the icon images */
+  width: 24px;
   height: 24px;
-  margin-right: 5px; /* Add some spacing between the icon and text */
+  margin-right: 5px; 
 }
 
 h2 {
-  margin-top: 0; /* Remove the top margin on the title */
+  margin-top: 0; 
 }
 
 
@@ -448,6 +489,7 @@ h2 {
   align-self: stretch;
   cursor: pointer;
 }
+
   .footer--items > ul {
     list-style: none;
     display: flex;
@@ -706,3 +748,4 @@ h2 {
     margin: 20px;
   }
 }
+
