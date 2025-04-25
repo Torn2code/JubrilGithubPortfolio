@@ -12,10 +12,12 @@ export default function AboutMe() {
           </p>
           <h1 className="skills--section--heading">Jubril Adebiyi</h1>
           <p className="hero--section--description">
-          Jubril Adebiyi is a QA Tester at Testlio and a Student Frontend Developer at AltSchool Africa, pursuing a Diploma of Education in Frontend Engineering. With an eagle eye for detail and a drive for delivering top-notch user experiences, Jubril excels in both manual and automated testing methodologies, ensuring software excellence and user satisfaction. Jubril is adept at identifying bugs, usability issues, and performance bottlenecks, collaborating closely with development teams to contribute to seamless solutions that enhance products.
+          Jubril Adebiyi is a QA Tester at Testlio and a certified Frontend Engineer with a Diploma in Frontend Engineering from AltSchool Africa. With a keen eye for detail and a passion for crafting exceptional digital experiences, Jubril excels in both manual and automated testing methodologies. His expertise lies in identifying bugs, usability challenges, and performance bottlenecks, all while working collaboratively with development teams to deliver seamless, high-quality software solutions.
+
+Driven by a commitment to software excellence and user satisfaction, Jubril brings a unique blend of testing precision and frontend development knowledge to every project.
           </p>
           <p className="hero--section--description">
-          Currently, I am enthusiastically diving into the world of Frontend Development, learning HTML, CSS, and JavaScript to create visually stunning and responsive web applications. I thrive in team setting, effectively communicating technical insights for seamless cross-functional collaboration. I am passionate about contributing to projects that drive innovation and elevate user experiences.
+          I specialize in building dynamic, responsive web applications using modern frontend technologies including HTML, CSS, JavaScript, and React. With a solid foundation in frontend engineering, I bring both creativity and precision to the development process. I thrive in collaborative environments, where I translate technical insights into seamless solutions that enhance usability and performance. Passionate about continuous improvement and innovation, I actively contribute to projects that push the boundaries of user experience and interface design.
           </p>
         </div>
       </div>

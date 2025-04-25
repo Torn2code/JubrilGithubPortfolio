@@ -6,7 +6,12 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="logoipsum-243.svg" alt="IpsumLogo" />
+        <img 
+  src="/img/9f2cf7099b344c37bdf46633f9d7e635-free.png" 
+  alt="JubrilLogo" 
+  style={{ width: "85px", height: "auto" }} 
+/>
+
         </div>
         <div className="footer--items">
           <ul>

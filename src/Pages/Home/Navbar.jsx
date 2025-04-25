@@ -35,7 +35,11 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="logoipsum-243.svg" alt="IpsumLogo" />
+      <img 
+  src="/img/9f2cf7099b344c37bdf46633f9d7e635-free.png" 
+  alt="JubrilLogo" 
+  style={{ width: "50px", height: "auto" }} 
+/>
       </div>
       <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
